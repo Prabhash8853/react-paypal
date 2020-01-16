@@ -23,7 +23,7 @@ function PaypalButton({ product }) {
               {
                 description: product.description,
                 amount: {
-                  currency_code: "INR",
+                  currency_code: "USD",
                   value: product.price
                 }
               }
